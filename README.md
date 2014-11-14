@@ -1,4 +1,4 @@
-Curso de Linguagem de Programação Java
+Curso Linguagem de Programação Java
 =========
 
 Projeto criado para centralizar arquivos do curso de Linguagem de Programação Java, dentro deste projeto está incluso:
