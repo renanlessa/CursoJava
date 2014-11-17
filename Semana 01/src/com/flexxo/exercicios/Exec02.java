@@ -1,14 +1,16 @@
 package com.flexxo.exercicios;
 
-public class Exec02 {
-	
-	private String mensagem;
-	
-	public String getMensagem() {
-		return mensagem;
-	}
+/*
+ * Escreva um programada para efetuar o cáculo do salário bruto de um empregado.
+ * Pedir para que o usuário entre com os seguintes dados:
+ * 
+ *  1. O valor do salário hora;
+ *  2. Número de horas trabalhadas no mês
+ * 
+ */
 
-	public void setMensagem(String mensagem) {
-		this.mensagem = mensagem;
+public class Exec02 {
+	public static void main(String[] args) {
+		
 	}
 }
