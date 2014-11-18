@@ -12,10 +12,24 @@ package com.flexxo.exercicios;
  */
 
 public class Exec01 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
-
+	
+	public int soma(int num1, int num2) {
+		return num1 + num2;
+	}
+	
+	public int subtracao(int num1, int num2) {
+		return num1 - num2;
+	}
+	
+	public int multiplicacao(int num1, int num2) {
+		return num1 * num2;
+	}
+	
+	public int divisao(int num1, int num2) {
+		return num1 / num2;
+	}
 }
