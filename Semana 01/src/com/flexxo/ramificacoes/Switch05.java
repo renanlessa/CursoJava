@@ -8,9 +8,7 @@ public class Switch05 {
 	        case "Segunda":
 	            System.out.println("Inicio da Semana");
 	            break;
-	        case "Terca":
-	        case "Quarta":
-	        case "Quinta":
+	        case "Terca": case "Quarta": case "Quinta":
 	        	System.out.println("Meio da Semana");
 	            break;
 	        case "Friday":

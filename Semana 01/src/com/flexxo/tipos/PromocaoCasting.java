@@ -5,10 +5,10 @@ public class PromocaoCasting {
 	//continua sendo do tipo long
 	long grande = 6;
 	
-	//uma variavel do tipo inteiro não possui
-	//espaço para armazenar um valor longo
-	int pequeno = 99L;
+	//uma variavel do tipo inteiro nao possui
+	//espaco para armazenar um valor longo
+	//int pequeno = 99L;
 	
 	float a = 12.121F; //correto
-	float b = 12.121;  // 12.121 é um double
+	//float b = 12.121;  // 12.121 eh um double
 }

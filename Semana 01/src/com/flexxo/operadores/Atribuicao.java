@@ -12,7 +12,10 @@ public class Atribuicao {
 		w = y + 10 + z;
 		
 		y = w + 2;
-		y += y + 2;
+		
+		y = y + 2;
+		
+		y += 2;
 		
 		w -= 5;
 		

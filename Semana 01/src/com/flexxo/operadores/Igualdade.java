@@ -18,7 +18,7 @@ public class Igualdade {
 		
 		// IGUALDADE DE VARIAVEIS DE REFERENCIA
 
-		String a = "Flexxo";
+		String a = new String("Flexxo");
 		String b = "Flexxo";
 
 		System.out.println(" a == b ? " + (a == b));

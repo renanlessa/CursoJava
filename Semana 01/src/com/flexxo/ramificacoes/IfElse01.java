@@ -16,8 +16,9 @@ public class IfElse01 {
 			System.out.println(menor + ">" + maior);
 		}
 		
-		boolean vardade = (10 > 5);
-		if(vardade)
+		boolean verdade = (10 > 5);
+		
+		if(verdade)
 		{	
 			// (10 > 5) = true
 			System.out.println(maior + ">" + menor);
