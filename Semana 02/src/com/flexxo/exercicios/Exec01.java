@@ -9,6 +9,7 @@ package com.flexxo.exercicios;
 
 public class Exec01 {
 	public static void main(String[] args) {
-
+		int a = (int) (Math.random() * 99) + 1;
+		
 	}
 }
