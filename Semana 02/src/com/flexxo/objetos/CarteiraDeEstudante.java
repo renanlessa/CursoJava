@@ -1,7 +1,7 @@
 package com.flexxo.objetos;
 
-class CarteiraDeEstudante {	
-	String nome;
-	int numero;
-	Endereco end;
+public class CarteiraDeEstudante {	
+	public String nome;
+	public int numero;
+	public Endereco end;
 }
