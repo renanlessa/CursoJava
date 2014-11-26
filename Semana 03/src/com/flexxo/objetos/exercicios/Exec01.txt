@@ -1,0 +1,6 @@
+Escreva a classe Avaliação, conforme exemplo já existente e com a utilização correta 
+dos modificadores de acesso, garanta a consistência dos valores para as notas dos trabalhos e provas,
+assim como respeitando o número maximo de trabalhos (4) e provas(2);
+
+Escreva um método na classe avaliação que retorne o valor da nota de um trabalho a partir da posição;
+Escreva um método na classe avaliação que retorne o valor da nota de uma prova a partir da posição;
