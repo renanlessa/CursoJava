@@ -1,0 +1,25 @@
+1. 
+
+Escreva uma classe chamada Funcionario, que deve ter:
+nome do funcionario
+nome do departamento onde trabalha
+seu salario
+data de entrada (string)
+seu rg (string)
+e um valor booleano que indique se o funcionario ainda faz parte da empresa
+
+Crie metodos de acordo com a sua necessidade e também:
+metodo bonifica que aumenta o salario do funcionario de acordo com o parametro passado para o metodo
+medoto demite, não recebe nenhum parametro, só modifica o booleano indicando que ele nao trabalha mais na empresa
+
+Crie uma classe para testes com o metodo main
+
+
+2. 
+
+Altere a classe Funcionario e troque o tipo String do atributo data para um tipo que você deve criar
+chamado Data que tem 3 atributos dia, mes e ano do tipo inteiro.
+
+A nova classe Data deve ter um construtor para todos os atributos
+
+Altere a classe de testes para criar uma data e adicionar ao funcionario 
