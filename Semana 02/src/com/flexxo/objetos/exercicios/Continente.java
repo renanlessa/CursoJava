@@ -19,5 +19,86 @@ package com.flexxo.objetos.exercicios;
  */
 
 public class Continente {
+	private String nome;
+	private Pais[] paises;
+	
+	public Continente(String nome, int numeroPaises) {
+		this.nome = nome;
+		paises = new Pais[numeroPaises];
+	}
+	
+	public void addPais(int posicao, Pais pais) {
+		if (posicao >= 0 && posicao < paises.length) {
+			paises[posicao] = pais;
+		} else {
+			System.out.println("Posição invalida!");
+		}
+	
+	}
+	
+	public float retornaDimensaoTotal() {
+		float total = 0F;
+		for (Pais pais : paises) {
+			if(pais != null)
+				total += pais.getDimensao();
+		}
+		return total;
+	}
+	
+	public float retornaPopulacaoTotal() {
+		float total = 0F;
+		for (Pais pais : paises) {
+			if(pais != null)
+				total += pais.getPopulacao();
+		}
+		return total;
+	}
+	
+	public String retornaPaisComMaiorPopulacao() {
+		float maior = 0;
+		String nomePais = "";
+		for (Pais pais : paises) {
+			if(pais != null) {
+				if (pais.getPopulacao() > maior) {
+					maior = pais.getPopulacao();
+					nomePais = pais.getNome();
+				}
+			}
+		}
+		return nomePais;
+	}
+	
+	public String retornaPaisComMaiorDimensao() {
+		float maior = 0;
+		String nomePais = "";
+		for (Pais pais : paises) {
+			if(pais != null) {
+				if (pais.getDimensao() > maior) {
+					maior = pais.getDimensao();
+					nomePais = pais.getNome();
+				}
+			}
+		}
+		return nomePais;
+	}
+	
+	/*
+	 * gets e sets 
+	 */
 
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Pais[] getPaises() {
+		return paises;
+	}
+
+	public void setPaises(Pais[] paises) {
+		this.paises = paises;
+	}
 }
