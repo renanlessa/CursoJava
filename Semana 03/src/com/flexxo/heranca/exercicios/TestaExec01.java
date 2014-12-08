@@ -41,7 +41,7 @@ public class TestaExec01 {
 		prof.setNome("Augusto");
 		prof.setSalario(2500.0);
 		prof.setHorasAula(10);
-		
+
 		GeradorDeRelatorio gdr = new GeradorDeRelatorio();
 		gdr.imprimeRelatorio(prof);
 	}

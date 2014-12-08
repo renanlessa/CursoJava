@@ -23,6 +23,19 @@ package com.flexxo.heranca.exercicios;
 
 public class TestaExec02 {
 	public static void main(String[] args) {
-
+		CartaoWeb[] listaCartoes = new CartaoWeb[3];
+		
+		DiaDosNamorados joao = new DiaDosNamorados("Joao");
+		listaCartoes[0] = joao;
+		
+		Natal maria = new Natal("Maria");
+		listaCartoes[1] = maria;
+		
+		Aniversario matheus = new Aniversario("Matheus");
+		listaCartoes[2] = matheus;
+		
+		for (CartaoWeb cartaoWeb : listaCartoes) {
+			cartaoWeb.showMessage();
+		}
 	}
 }
