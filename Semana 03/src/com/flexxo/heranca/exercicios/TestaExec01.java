@@ -35,9 +35,14 @@ package com.flexxo.heranca.exercicios;
  * 
  */
 
-
 public class TestaExec01 {
 	public static void main(String[] args) {
+		Professor prof = new Professor();
+		prof.setNome("Augusto");
+		prof.setSalario(2500.0);
+		prof.setHorasAula(10);
 		
+		GeradorDeRelatorio gdr = new GeradorDeRelatorio();
+		gdr.imprimeRelatorio(prof);
 	}
 }

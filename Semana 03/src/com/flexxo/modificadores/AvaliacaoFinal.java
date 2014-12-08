@@ -18,6 +18,6 @@ public class AvaliacaoFinal {
 	
 	final public void teste() {
 		// Essa linha causará um erro de compilação 
-		numeroDeProvas = 5;
+		//numeroDeProvas = 5; //TODO descomente e veja o erro
 	}
 }
