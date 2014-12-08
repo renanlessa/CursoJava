@@ -54,6 +54,23 @@ public class Continente {
 		return total;
 	}
 	
+	public String retornaPaisComMenorPopulacao() {
+		float menor = 0;
+		String nomePais = "";
+		for(int i = 0; i < paises.length; i++) {
+			if (i == 0) {
+				menor = paises[i].getPopulacao();
+				nomePais = paises[i].getNome();
+			}
+			
+			if(paises[i].getPopulacao() < menor) {
+				menor = paises[i].getPopulacao();
+				nomePais = paises[i].getNome();
+			}
+		}
+		return nomePais;
+	}
+	
 	public String retornaPaisComMaiorPopulacao() {
 		float maior = 0;
 		String nomePais = "";

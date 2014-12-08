@@ -19,10 +19,10 @@ package com.flexxo.objetos.exercicios;
  */
 
 public class Pais {
-	public String codigo;
-	public String nome;
-	public float populacao;
-	public float dimensao;
+	private String codigo;
+	private String nome;
+	private float populacao;
+	private float dimensao;
 	
 	public Pais(String codigo, String nome, float dimensao) {
 		this.codigo = codigo;
@@ -30,7 +30,7 @@ public class Pais {
 		this.dimensao = dimensao;
 	}
 	
-	public boolean equals(Pais pais) {
+	public boolean ehIgual(Pais pais) {
 		if(this.getCodigo().equals(pais.getCodigo())) {
 			return true;
 		} else {
@@ -44,6 +44,10 @@ public class Pais {
 		System.out.println("População: " + this.populacao);
 		System.out.println("Dimensão: " + this.dimensao);
 	}
+	
+	/*
+	 * gets e sets
+	 */
 	
 	public String getCodigo() {
 		return codigo;

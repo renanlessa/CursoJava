@@ -13,7 +13,7 @@ public class TestaPais {
 		
 		paisBrasil.imprimePais();
 		
-		System.out.println(paisBrasil.equals(paisBrasil1));
-		System.out.println(paisBrasil.equals(paisBrasil2));
+		System.out.println(paisBrasil.ehIgual(paisBrasil1));
+		System.out.println(paisBrasil.ehIgual(paisBrasil2));
 	}
 }
