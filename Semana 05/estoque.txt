@@ -1,0 +1,10 @@
+1,Camiseta,45.00
+2,Calca,79.90
+3,Sapato,129.90
+1,Camiseta,39.90
+3,Sapato,89.90
+3,Sapato,199.90
+2,Calca,99.00
+2,Calca,29.90
+4,Camisa,69.90
+4,Camisa,35.00
