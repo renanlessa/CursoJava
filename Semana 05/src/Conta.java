@@ -8,6 +8,10 @@ public class Conta implements Comparable<Conta> {
 	public void setTitular(String titular) {
 		this.titular = titular;
 	}
+	
+	public Conta(double saldo) {
+		this.saldo = saldo;
+	}
 
 	public Conta(double saldo, String titular) {
 		this.saldo = saldo;

@@ -1,5 +1,9 @@
 package com.flexxo.exercicios;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 /*
  * Baseado no arquivo chamado estoque.txt presente neste projeto.
  * 
@@ -17,5 +21,28 @@ package com.flexxo.exercicios;
 
 public class TesteExec01 {
 	public static void main(String[] args) {
+	
+		Scanner scan = null;
+		String[] produto = new String[3];
+		String linha = null;
+		try {
+			scan = new Scanner(new FileInputStream("estoque.txt"));
+			while(scan.hasNextLine()) {
+				produto = scan.nextLine().split(",");
+				
+				System.out.println(produto[0]);
+				System.out.println(produto[1]);
+				System.out.println(produto[2]);
+				
+				
+				
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} finally {
+			scan.close();
+		}
+		
+		
 	}
 }
